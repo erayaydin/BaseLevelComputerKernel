@@ -1,0 +1,25 @@
+root@balecok # memory
+Total available memory: 30MiB
+Total used memory: 272B
+Total free memory: 30MiB
+Total allocated memory: 16KiB
+root@balecok # mmap
+There are 6 mmap entry
+Base         End          Size                  Type
+0x0000000000 0x000009F000 0x000009F000 636KiB   Kernel
+0x000009F000 0x00000A0000 0x0000001000 4KiB     Reserved
+0x00000E8000 0x0000100000 0x0000018000 96KiB    Reserved
+0x0000100000 0x0001FF0000 0x0001EF0000 30MiB    Free
+0x0001FF0000 0x0002000000 0x0000010000 64KiB    ACPI
+0x00FFFC0000 0x0100000000 0x0000040000 256KiB   Reserved
+root@balecok # echo We Want Logo ;0
+We Want Logo ;0
+root@balecok #
+
+
+
+
+
+
+
+ß
