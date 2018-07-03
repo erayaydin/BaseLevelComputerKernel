@@ -1,6 +1,6 @@
 # BaLeCoK
 
-https://kernel.live
+http://kernel.live
 
 A vucking computer kernel developed in base level.
 
