@@ -1,28 +1,22 @@
-## BaseLevelComputerKernel
-A Computer Kernel in Base Level. 
+# BaLeCoK
 
-### Build and Start
-If you wanna start immediately you can type "make"
+https://kernel.live
+
+A vucking computer kernel developed in base level.
+
+## Compiling
+
+You need x86_64-elf-gcc. If you are arch linux user you can get it from [AUR](https://aur.archlinux.org/packages/x86_64-elf-gcc/).
+
+Then you need GNU Make tool.
+
 ```
-user@hostname ~/BaseLevelComputerKernel $ make
+$ cd BaseLevelComputerKernel
+$ make
 ```
-It compiles the micro kernel and runs it on qemu (you need qemu-system-x86_64)
-#### Compile to Binary
+
+that gives balecok.iso as output, if you want run kernel (on bochs) you need bochs emulator. If you are arch user you cen get it from [AUR](https://aur.archlinux.org/packages/bochs-gdb/)
+
 ```
-user@hostname ~/BaseLevelComputerKernel $ make bootloader.bin
-user@hostname ~/BaseLevelComputerKernel $ make micro_kernel.bin
+$ make bochs
 ```
-#### Compile to ISO
-```
-user@hostname ~/BaseLevelComputerKernel $ make balecok.iso
-```
-#### Run it on qemu-system-x86_64
-```
-user@hostname ~/BaseLevelComputerKernel $ make start-qemu
-```
-#### Run it on bochs
-```
-user@hostname ~/BaseLevelComputerKernel $ make bochs
-```
-### Usage
-Type "help" for available commands
