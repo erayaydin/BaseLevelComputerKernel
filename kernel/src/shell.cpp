@@ -437,7 +437,7 @@ void free_command(const vector<string>&){
 void pwd_command(const vector<string>&){
     auto cd = disks::current_directory();
 
-    if(cd){
+    if(cd.empty()){
         k_print_line('/');
     } else {
         k_printf("/%s\n", cd);
