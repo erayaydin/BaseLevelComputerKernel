@@ -15,7 +15,7 @@ $ cd BaseLevelComputerKernel
 $ make
 ```
 
-that gives balecok.iso as output, if you want run kernel (on bochs) you need bochs emulator. If you are arch user you cen get it from [AUR](https://aur.archlinux.org/packages/bochs-gdb/)
+that gives balecok.iso as output, if you want run kernel (on bochs) you need bochs emulator. If you are arch user you can get it from [AUR](https://aur.archlinux.org/packages/bochs-gdb/)
 
 ```
 $ make bochs
